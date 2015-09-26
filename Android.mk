@@ -21,9 +21,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := \
 	displayengine.cpp
 
-LOCAL_SHARED_LIBRARIES := \ 
-	liblog \
-	libcutils
+LOCAL_SHARED_LIBRARIES := liblog libcutils
 
 LOCAL_C_INCLUDES += \
 	device/ainol/gs702a-common/includes/
