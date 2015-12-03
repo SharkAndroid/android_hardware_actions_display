@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Display driver for ATM702X
-ifeq ($(strip $(BOARD_USES_ACTIONS_DISPLAY)), true)
+ifeq ($(BOARD_HAVE_ACTIONS_DISPLAY), true)
 
 LOCAL_PATH := $(call my-dir)
 
